@@ -1,0 +1,6 @@
+What is the difference between a merge and a rebase?
+
+Answer: 
+Merge and rebase both have similar techniques to integrate changes from one branch to another, however there are important differneces to note through each of its approaches and overall changes made to local and remote repos.
+When merging, Git will create a new merge commit with two parent commits, one for each of the merging branches. Also, the commit history will be saved to see the development timeline of the repo. One thing that can make merging a bit mroe tedious to deal with is if you are continuously merging branches, and there will be a long commit history that is saved.
+Rebasing, on the other hand,  will replay commits and this can overwrite the commit history of the rebased branch. Rebasing will also have a linear commit history and the changes will be shown as if it is right on top of the rebased branch. This will help resolve conflicts at a faster rate and keep the commit history much cleaner. However, if there are more people sharing the codebases, then keeping track of the changes made over time can be harder to track and will result in making it harder to revert changes.
