@@ -1,9 +1,0 @@
-What is a remote repository?
-
-Answer: 
-A remote repository is a repo that is hosted off of and stored on different server than your local repository. They are extremely important as they serve many differnt types of purposes and functions.
-For example, they allow for multiple developers to contribute to a codebase and develop various parts of the project at once. Also, the remote repository keep backups in case the code base gets corrupted or is somehow compromised.
-With many more features that come along with remote repositories, it is an essential item for any developer working ona big project with other contributors.
-
-
-
