@@ -4,3 +4,11 @@ Answer:
 Merge and rebase both have similar techniques to integrate changes from one branch to another, however there are important differneces to note through each of its approaches and overall changes made to local and remote repos.
 When merging, Git will create a new merge commit with two parent commits, one for each of the merging branches. Also, the commit history will be saved to see the development timeline of the repo. One thing that can make merging a bit mroe tedious to deal with is if you are continuously merging branches, and there will be a long commit history that is saved.
 Rebasing, on the other hand,  will replay commits and this can overwrite the commit history of the rebased branch. Rebasing will also have a linear commit history and the changes will be shown as if it is right on top of the rebased branch. This will help resolve conflicts at a faster rate and keep the commit history much cleaner. However, if there are more people sharing the codebases, then keeping track of the changes made over time can be harder to track and will result in making it harder to revert changes.
+
+What is a remote repository?
+
+Answer: 
+A remote repository is a repo that is hosted off of and stored on different server than your local repository. They are extremely important as they serve many differnt types of purposes and functions.
+For example, they allow for multiple developers to contribute to a codebase and develop various parts of the project at once. Also, the remote repository keep backups in case the code base gets corrupted or is somehow compromised.
+With many more features that come along with remote repositories, it is an essential item for any developer working ona big project with other contributors.
+
